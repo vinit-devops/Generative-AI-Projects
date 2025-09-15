@@ -49,9 +49,13 @@ OPENAI_API_KEY=your_openai_api_key
 ⚠️ Do not commit .env to GitHub.
 
 If using Ollama, make sure it is running:
-ollama serve
+```
+ ollama serve
+````
 And pull your model:
+```
 ollama pull gemma:2b
+```
 
 ▶️ Run the App
 ```
@@ -61,16 +65,17 @@ Open http://localhost:8501 in your browser
 
 
 📂 Project Structure
+```
 LangChain_Chatbot_OpenAI_Ollama/
 │
 ├── app.py             # Streamlit chatbot app
 ├── requirements.txt   # Dependencies
 ├── README.md          # This file
 └── .gitignore         # Ignore venv, cache, secrets
-
+```
 ⚡ Example Usage
-Select GPT or Ollama model from the sidebar.
-Enter your OpenAI API key (if using GPT).
-Start chatting — the assistant remembers context per session.
-Create new sessions from the sidebar and switch between them..
+- Select GPT or Ollama model from the sidebar.
+- Enter your OpenAI API key (if using GPT).
+- Start chatting — the assistant remembers context per session.
+- Create new sessions from the sidebar and switch between them..
 
