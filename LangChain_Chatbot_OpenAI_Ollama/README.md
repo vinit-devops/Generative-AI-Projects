@@ -1,6 +1,4 @@
 ## README.md (`LangChain_Chatbot_OpenAI_Ollama/README.md`)
-
-```markdown
 # LangChain Chatbot (OpenAI + Ollama)
 
 ## 🖼️ Demo Screenshot
@@ -29,7 +27,6 @@ The assistant maintains **chat history with session IDs** so it remembers contex
 ## Installation
 
 Clone this repo and go into the project folder:
-```bash
 git clone https://github.com/vinit-devops/Generative-AI-Projects.git
 cd Generative-AI-Projects/LangChain_Chatbot_OpenAI_Ollama
 
