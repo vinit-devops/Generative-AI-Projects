@@ -27,6 +27,7 @@ The assistant maintains **chat history with session IDs** so it remembers contex
 ## Installation
 
 Clone this repo and go into the project folder:
+```
 git clone https://github.com/vinit-devops/Generative-AI-Projects.git
 cd Generative-AI-Projects/LangChain_Chatbot_OpenAI_Ollama
 
@@ -67,3 +68,4 @@ Select GPT or Ollama model from the sidebar.
 Enter your OpenAI API key (if using GPT).
 Start chatting — the assistant remembers context per session.
 Create new sessions from the sidebar and switch between them..
+```
