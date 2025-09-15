@@ -1,4 +1,3 @@
-## README.md (`LangChain_Chatbot_OpenAI_Ollama/README.md`)
 # LangChain Chatbot (OpenAI + Ollama)
 
 ## 🖼️ Demo Screenshot
