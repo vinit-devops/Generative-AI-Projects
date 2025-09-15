@@ -7,7 +7,7 @@
 
 Here’s what the chatbot looks like running in Streamlit:
 
-![App Screenshot](/LangChain_Chatbot_OpenAI_Ollama/images/app_screenshot.png)
+![App Screenshot](https://raw.githubusercontent.com/vinit-devops/Generative-AI-Projects/main/LangChain_Chatbot_OpenAI_Ollama/images/app_screenshot.png)
 
 
 This project is part of [Generative-AI-Projects](../).  
