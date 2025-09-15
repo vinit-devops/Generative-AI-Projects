@@ -60,7 +60,8 @@ def get_session_history(session_id: str) -> ChatMessageHistory:
 def get_chain(llm_model, api_key, temperature, max_tokens):
     llm = get_llm(llm_model, api_key, temperature, max_tokens)
     output = StrOutputParser()
-    chain = prompter | llm | output
+    prompt = prompter.with_config(run_name="PromptTemplate")
+    chain = prompt | llm | output
 
     return RunnableWithMessageHistory(
         chain,
