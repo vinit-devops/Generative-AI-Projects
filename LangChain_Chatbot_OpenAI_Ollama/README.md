@@ -7,7 +7,7 @@
 
 Here’s what the chatbot looks like running in Streamlit:
 
-![App Screenshot](images/app_screenshot.png)
+![App Screenshot](images/app_screenshot_v2.png)
 
 
 
