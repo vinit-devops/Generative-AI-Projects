@@ -3,6 +3,13 @@
 ```markdown
 # LangChain Chatbot (OpenAI + Ollama)
 
+## 🖼️ Demo Screenshot
+
+Here’s what the chatbot looks like running in Streamlit:
+
+![App Screenshot](images/app_screenshot.png)
+
+
 This project is part of [Generative-AI-Projects](../).  
 It is a **Streamlit chatbot** that supports both **OpenAI GPT models** (cloud) and **Ollama local models**.  
 The assistant maintains **chat history with session IDs** so it remembers context across turns.
