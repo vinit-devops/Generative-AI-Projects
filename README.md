@@ -1,7 +1,7 @@
 # Generative AI Projects
 
 A collection of hands-on **Generative AI projects** exploring different LLMs, frameworks, and tools.  
-This repository demonstrates practical applications of **OpenAI**, **Ollama**, **LangChain**, **Streamlit**, and more.
+This repository demonstrates practical applications of **OpenAI**, **Ollama**, **LangChain**, **Streamlit**, **Groq** and more.
 
 ---
 
