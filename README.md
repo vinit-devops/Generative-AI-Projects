@@ -37,6 +37,24 @@ Features:
 
 ---
 
+### 3. [LangChain_RAG_PDF_Uploads_Chat_History](LangChain_RAG_PDF_Uploads_Chat_History)
+This project is an **upgraded version** of [LangChain_PDF_Groq_Ollama_Embeddings](../LangChain_PDF_Groq_Ollama_Embeddings).  
+
+Uses:
+- [Streamlit](https://streamlit.io/) – Interactive UI  
+- [LangChain](https://www.langchain.com/) – RAG orchestration  
+- [Groq](https://console.groq.com/) – Fast LLM inference (`llama-3.1-8b-instant`)  
+- [HuggingFace Embeddings](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) – Semantic search embeddings  
+- [ChromaDB](https://www.trychroma.com/) – Vector database  
+- [pypdf](https://pypi.org/project/pypdf/) – PDF text extraction  
+
+Features:
+-  **Conversational Memory**: Keeps track of session history using `RunnableWithMessageHistory`.  
+-  **Chat Context Awareness**: Reformulates questions based on chat history (`create_history_aware_retriever`).  
+-  **Multiple PDF Uploads**: Upload and query multiple PDFs in the same session.  
+-  **Chroma Vector Store**: Uses [ChromaDB](https://www.trychroma.com/) instead of FAISS, optimized for conversational use.  
+-  **Streamlit UI Enhancements**:
+---
 
 
 ## 🚀 Getting Started
