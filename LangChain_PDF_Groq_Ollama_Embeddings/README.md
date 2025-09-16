@@ -71,8 +71,11 @@ Open http://localhost:8501 in your browser
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 ```
-⚡ Example Usage
-- Select GPT or Ollama model from the sidebar.
-- Enter your OpenAI API key (if using GPT).
-- Start chatting — the assistant remembers context per session.
-- Create new sessions from the sidebar and switch between them..
+🔮 Future Improvements
+[LangChain_RAG_PDF_Uploads_Chat_History](../LangChain_RAG_PDF_Uploads_Chat_History).
+
+🙌 Acknowledgements
+- Krish Naik’s Generative AI Course for reference code.
+- LangChain team.
+- Groq for blazing-fast inference.
+- Ollama for easy local embeddings.
