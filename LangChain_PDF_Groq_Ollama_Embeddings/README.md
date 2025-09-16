@@ -75,7 +75,7 @@ Open http://localhost:8501 in your browser
 [LangChain_RAG_PDF_Uploads_Chat_History](../LangChain_RAG_PDF_Uploads_Chat_History).
 
 🙌 Acknowledgements
-- Krish Naik’s Generative AI Course for reference code.
-- LangChain team.
+- Inspired by Krish Naik’s Generative AI course.
+- LangChain Community.
 - Groq for blazing-fast inference.
 - Ollama for easy local embeddings.
