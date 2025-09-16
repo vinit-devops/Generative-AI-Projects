@@ -20,6 +20,25 @@ Features:
 
 ---
 
+### 2. [LangChain_PDF_Groq_Ollama_Embeddings](LangChain_PDF_Groq_Ollama_Embeddings)
+A tool to query PDF documents using Retrieval-Augmented Generation (RAG). The app splits PDFs into chunks, embeds them locally using Ollama, stores in FAISS for vector similarity search, and uses Groq-hosted models for generating answers. 
+Uses:
+- Python, Streamlit  
+- LangChain + LangChain-community components  
+- Groq API for LLM inference (using a supported model)  
+- Ollama for embeddings  
+- FAISS for vector search 
+
+Features:
+- Splits PDF documents into text chunks using a recursive character splitter.  
+- Embeds chunks via an Ollama model.  
+- Stores embeddings in a persistent FAISS vector store so embeddings don’t need to be recomputed on each run.  
+- Provides a Streamlit UI with a sidebar control to “Click for Document Embedding”, a prominent query input, and displays both the answer and similarity-matched document sections.
+
+---
+
+
+
 ## 🚀 Getting Started
 
 Clone the repo:
