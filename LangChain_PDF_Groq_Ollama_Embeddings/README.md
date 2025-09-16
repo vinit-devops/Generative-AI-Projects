@@ -30,7 +30,7 @@ The app uses:
 Clone this repo and go into the project folder:
 ```
 git clone https://github.com/vinit-devops/Generative-AI-Projects.git
-cd Generative-AI-Projects/LangChain_Chatbot_OpenAI_Ollama
+cd Generative-AI-Projects/LangChain_PDF_Groq_Ollama_Embeddings
 ```
 Create a virtual environment and install dependencies:
 ```
